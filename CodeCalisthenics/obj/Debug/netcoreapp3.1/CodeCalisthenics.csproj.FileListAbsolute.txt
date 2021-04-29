@@ -1,0 +1,13 @@
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\bin\Debug\netcoreapp3.1\CodeCalisthenics.exe
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\bin\Debug\netcoreapp3.1\CodeCalisthenics.deps.json
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\bin\Debug\netcoreapp3.1\CodeCalisthenics.runtimeconfig.json
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\bin\Debug\netcoreapp3.1\CodeCalisthenics.runtimeconfig.dev.json
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\bin\Debug\netcoreapp3.1\CodeCalisthenics.dll
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\bin\Debug\netcoreapp3.1\CodeCalisthenics.pdb
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.csprojAssemblyReference.cache
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.AssemblyInfoInputs.cache
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.AssemblyInfo.cs
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.csproj.CoreCompileInputs.cache
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.dll
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.pdb
+C:\Users\colacilloc\source\repos\CodeCalisthenics\CodeCalisthenics\obj\Debug\netcoreapp3.1\CodeCalisthenics.genruntimeconfig.cache
