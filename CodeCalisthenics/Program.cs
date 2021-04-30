@@ -6,7 +6,7 @@ namespace CodeCalisthenics
     {
         public static void Main(string[] args)
         {
-            RoadRepair.MainEntrance(args);
+            RoadRepair.RoadRepair.MainEntrance(args);
 
             /*int n = Convert.ToInt32(Console.ReadLine().Trim());
 
