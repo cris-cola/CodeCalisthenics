@@ -12,29 +12,37 @@ namespace CodeCalisthenics.FizzBuzz
                 new FizzBuzz(i).Print();
             }
         }
+    }
 
-        private static void WriteFizzBuzz(int n)
+    public class FizzBuzz
+    {
+        private int Number { get; set; }
+
+        private bool IsFizz { get; set; }
+        private bool IsBuzz { get; set; }
+        private bool IsFizzBuzz => IsFizz && IsBuzz;
+
+        private static readonly string FizzMessage = "Fizz";
+        private static readonly string BuzzMessage = "Buzz";
+        private static readonly string FizzBuzzMessage = FizzMessage + BuzzMessage;
+
+        public FizzBuzz(int number)
         {
-            var result = n.ToString();
-            if (n % 3 == 0 && n % 5 == 0)
-            {
-                result = "FizzBuzz";
-                return;
-            }
-            if (n % 3 == 0 )
-            {
-                result = "Fizz";
-                return;
-            }
-            if (n % 5 == 0)
-            {
-                result = "Buzz";
-                return;
-            }
-
-            Console.WriteLine(result);
+            Number = number;
+            IsFizz = number % 3 == 0;
+            IsBuzz = number % 5 == 0;
         }
 
+        public void Print()
+        {
+            Console.WriteLine(GetFizzBuzz());
+        }
 
+        private string GetFizzBuzz()
+        {
+            return IsFizzBuzz ?
+                FizzBuzzMessage :
+                IsFizz ? FizzMessage : (IsBuzz ? BuzzMessage : Number.ToString());
+        }
     }
 }
