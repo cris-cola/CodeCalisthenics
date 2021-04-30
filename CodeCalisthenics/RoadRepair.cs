@@ -25,7 +25,7 @@ namespace CodeCalisthenics
         }
     }
 
-    class Result
+    public class Result
     {
 
         /*
