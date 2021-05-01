@@ -6,7 +6,9 @@
         {
             //RoadRepair.RoadRepair.Execute();
             
-            FizzBuzz.FizzBuzzKata.Execute(15);
+            //FizzBuzz.FizzBuzzKata.Execute(15);
+
+            new SalesByMatch.SalesByMatch();
         }
     }
 }
