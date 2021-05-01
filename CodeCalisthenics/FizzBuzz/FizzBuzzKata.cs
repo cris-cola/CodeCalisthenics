@@ -40,9 +40,9 @@ namespace CodeCalisthenics.FizzBuzz
 
         private string GetFizzBuzz()
         {
-            return IsFizzBuzz ?
-                FizzBuzzMessage :
-                IsFizz ? FizzMessage : (IsBuzz ? BuzzMessage : Number.ToString());
+            return IsFizzBuzz 
+                ? FizzBuzzMessage 
+                : IsFizz ? FizzMessage : (IsBuzz ? BuzzMessage : Number.ToString());
         }
     }
 }
