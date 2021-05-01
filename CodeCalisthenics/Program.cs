@@ -8,7 +8,7 @@
             
             //FizzBuzz.FizzBuzzKata.Execute(15);
 
-            new SalesByMatch.SalesByMatch();
+            SalesByMatch.SalesByMatch.Execute();
         }
     }
 }
