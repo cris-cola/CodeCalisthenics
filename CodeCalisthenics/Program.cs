@@ -5,10 +5,11 @@
         public static void Main(string[] args)
         {
             //RoadRepair.RoadRepair.Execute();
-            
+
             //FizzBuzz.FizzBuzzKata.Execute(15);
 
-            SalesByMatch.SalesByMatch.Execute();
+            //SalesByMatch.SalesByMatch.Execute();
+            new CodeChallenges.Solution().Execute();
         }
     }
 }
