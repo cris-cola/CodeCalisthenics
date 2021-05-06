@@ -2,3 +2,5 @@
 
 /CodeCalisthenics/bin/*
 /CodeCalisthenics.sln.DotSettings.user
+/Tests/Operators.Test/bin/Debug/*
+/Tests/Operators.Test/obj/*
