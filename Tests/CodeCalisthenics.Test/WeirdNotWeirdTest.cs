@@ -1,7 +1,7 @@
-﻿using CodeCalisthenics.Operators;
+﻿using CodeCalisthenics.Operations;
 using Xunit;
 
-namespace Operators.Test
+namespace CodeCalisthenics.Test
 {
     public class WeirdNotWeirdTest
     {

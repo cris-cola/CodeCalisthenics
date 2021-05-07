@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeCalisthenics.Inheritance
+namespace CodeCalisthenics.Operations
 {
     public class Person
     {
@@ -18,14 +18,14 @@ namespace CodeCalisthenics.Inheritance
                 age = initialAge;
         }
 
-        public string amIOld()
+        public string AmIOld()
         {
             var message = GetStatusMessage();
             Console.WriteLine(message);
             return message;
         }
 
-        public void yearPasses()
+        public void YearPasses()
         {
             age += 1;
         }

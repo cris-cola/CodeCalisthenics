@@ -1,17 +1,9 @@
 ﻿using System;
 
-namespace CodeCalisthenics.Operators
+namespace CodeCalisthenics.Operations
 {
     public class Operators
     {
-        public void Execute()
-        {
-            
-            Solve(12.00, 20, 8);  //15
-            Solve(10.25, 17, 5);  //13
-            Solve(15.50, 15, 10); //19
-        }
-
         public double Solve(double meal_cost, int tip_percent, int tax_percent)
         {
             var tipAmount = GetPercentage(meal_cost, tip_percent);

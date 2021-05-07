@@ -1,14 +1,14 @@
 using Xunit;
 
-namespace Operators.Test
+namespace CodeCalisthenics.Test
 {
     public class OperatorsTest
     {
-        public CodeCalisthenics.Operators.Operators sut;
+        public Operations.Operators sut;
 
         public OperatorsTest()
         {
-            sut = new CodeCalisthenics.Operators.Operators();
+            sut = new Operations.Operators();
         }
 
         [Theory]

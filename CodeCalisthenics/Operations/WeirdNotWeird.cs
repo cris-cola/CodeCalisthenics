@@ -1,20 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CodeCalisthenics.Operators
+namespace CodeCalisthenics.Operations
 {
     public class WeirdNotWeird
     {
-        public void Execute(string[] args)
-        {
-            int n = Convert.ToInt32(Console.ReadLine().Trim());
-
-            var weirdNotWeird = CheckWeirdNotWeird(n);
-
-            Console.Write(weirdNotWeird);
-        }
-
         public string CheckWeirdNotWeird(int n)
         {
             if (IsEven(n) && IsInCustomRange(n))
