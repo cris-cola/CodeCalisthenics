@@ -6,9 +6,11 @@ namespace CodeCalisthenics.Operations
 {
     public class Loops
     {
-        public Loops()
+        public void Execute()
         {
-            
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+            PrintMultiples(n);
         }
 
         public string PrintMultiples(int number)

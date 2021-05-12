@@ -1,4 +1,6 @@
-﻿namespace CodeCalisthenics
+﻿using CodeCalisthenics.Operations;
+
+namespace CodeCalisthenics
 {
     class Program
     {
@@ -9,6 +11,7 @@
             //FizzBuzz.FizzBuzzKata.Execute(15);
 
             //SalesByMatch.SalesByMatch.Execute();
+            new Dictionaries().Execute();
         }
     }
 }
