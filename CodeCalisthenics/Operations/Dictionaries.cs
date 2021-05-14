@@ -14,6 +14,8 @@ namespace CodeCalisthenics.Operations
             for (int i = 0; i < entriesCount; i++)
             {
                 var entry = Console.ReadLine()?.Split(' ');
+                if(entry == null)
+                    continue;
                 phoneBookEntries.Add(entry[0], Parse(entry[1]));
             }
             string queriedName;
