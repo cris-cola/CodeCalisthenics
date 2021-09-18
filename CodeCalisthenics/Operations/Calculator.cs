@@ -1,24 +1,27 @@
-﻿using System.CodeDom.Compiler;
+﻿using System;
 using System.Collections.Generic;
-using System.Collections;
 using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
 using System.Text;
-using System;
-using CodeCalisthenics.Operations;
-using static System.Int32;
 
-namespace CodeCalisthenics
+namespace CodeCalisthenics.Operations
 {
-    class Program
+    class Calculator
     {
-        public static void Main(string[] args)
+        public int power(int numberBase, int exponent)
+        {
+            if (numberBase < 0 || exponent < 0)
+                throw new Exception("n and p should be non-negative");
+
+            double value = Math.Pow(numberBase, exponent);
+            return Convert.ToInt32(value);
+        }
+    }
+
+
+
+    public class CalculatorSolution
+    {
+        public void Execute()
         {
             Calculator myCalculator = new Calculator();
             int T = Int32.Parse(Console.ReadLine());
@@ -38,7 +41,7 @@ namespace CodeCalisthenics
 
                 }
             }
-            //new CalculatorSolution().Execute();
+
         }
     }
 }
