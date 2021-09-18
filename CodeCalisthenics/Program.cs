@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using CodeCalisthenics.Inheritance2;
 using CodeCalisthenics.Operations;
@@ -9,13 +10,9 @@ namespace CodeCalisthenics
     {
         public static void Main(string[] args)
         {
-            //RoadRepair.RoadRepair.Execute();
+            NodeSolution.Execute();
+        }
 
-            //FizzBuzz.FizzBuzzKata.Execute(15);
 
-            //SalesByMatch.SalesByMatch.Execute();
-            //new Dictionaries().Execute();
-            
-		}
     }
 }
