@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CodeCalisthenics.Operations
 {
-    class Calculator
+    class PowerCalculator
     {
         public int power(int numberBase, int exponent)
         {
@@ -23,7 +23,7 @@ namespace CodeCalisthenics.Operations
     {
         public void Execute()
         {
-            Calculator myCalculator = new Calculator();
+            PowerCalculator myPowerCalculator = new PowerCalculator();
             int T = Int32.Parse(Console.ReadLine());
             while (T-- > 0)
             {
@@ -32,7 +32,7 @@ namespace CodeCalisthenics.Operations
                 int p = int.Parse(num[1]);
                 try
                 {
-                    int ans = myCalculator.power(n, p);
+                    int ans = myPowerCalculator.power(n, p);
                     Console.WriteLine(ans);
                 }
                 catch (Exception e)
