@@ -2,11 +2,11 @@
 
 namespace CodeCalisthenics.Operations
 {
-    public class Node
+    public class LinkedListNode
     {
         public int data;
-        public Node next;
-        public Node(int d)
+        public LinkedListNode next;
+        public LinkedListNode(int d)
         {
             data = d;
             next = null;
@@ -18,7 +18,7 @@ namespace CodeCalisthenics.Operations
 
         public static void Execute()
         {
-            Node head = null;
+            LinkedListNode head = null;
             int T = Int32.Parse(Console.ReadLine());
             while (T-- > 0)
             {
@@ -28,33 +28,33 @@ namespace CodeCalisthenics.Operations
             display(head);
         }
 
-        public static Node insert(Node head, int data)
+        public static LinkedListNode insert(LinkedListNode head, int data)
         {
             if (head == null)
-                head = new Node(data);
+                head = new LinkedListNode(data);
             else
                 head.next = insert(head.next, data);
 
             return head;
         }
 
-        public static Node insertTwo(Node head, int data)
+        public static LinkedListNode insertTwo(LinkedListNode head, int data)
         {
             //Complete this method
             if (head == null)
-                return new Node(data);
+                return new LinkedListNode(data);
 
             if (head.next == null)
-                head.next = new Node(data);
+                head.next = new LinkedListNode(data);
             else
                 insertTwo(head.next, data);
 
             return head;
         }
 
-        public static void display(Node head)
+        public static void display(LinkedListNode head)
         {
-            Node start = head;
+            LinkedListNode start = head;
             while (start != null)
             {
                 Console.Write(start.data + " ");

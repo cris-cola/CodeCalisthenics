@@ -17,7 +17,7 @@ namespace CodeCalisthenics.Test
             var T = elements.Length;
             NodeSolution sut = new NodeSolution();
 
-            Node head = null;
+            LinkedListNode head = null;
             foreach (var data  in elements)
             {
                 head = NodeSolution.insert(head, data);

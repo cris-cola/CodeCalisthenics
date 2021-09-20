@@ -20,6 +20,16 @@ namespace CodeCalisthenics
     {
         public static void Main(string[] args)
         {
+            Node root = null;
+            int T = Int32.Parse(Console.ReadLine());
+            while (T-- > 0)
+            {
+                int data = Int32.Parse(Console.ReadLine());
+                root = SearchTree.insert(root, data);
+            }
+            int height = SearchTree.getHeight(root);
+            Console.WriteLine(height);
+
         }
     }
     
