@@ -17,19 +17,18 @@ using static System.Int32;
 namespace CodeCalisthenics
 {
     class Program
-    {
+    {   
         public static void Main(string[] args)
         {
+            var breadthFirstSearch = new BreadthFirstSearch();
             Node root = null;
             int T = Int32.Parse(Console.ReadLine());
             while (T-- > 0)
             {
                 int data = Int32.Parse(Console.ReadLine());
-                root = SearchTree.insert(root, data);
+                root = breadthFirstSearch.insert(root, data);
             }
-            int height = SearchTree.getHeight(root);
-            Console.WriteLine(height);
-
+            breadthFirstSearch.levelOrder(root);
         }
     }
     
