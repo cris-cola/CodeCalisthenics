@@ -1,24 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CodeCalisthenics.Operations;
+﻿using CodeCalisthenics.Operations.LinkedLists;
 using Xunit;
 
-namespace CodeCalisthenics.Test
+namespace CodeCalisthenics.Test.LinkedLists
 {
-    public class NodeTest
+    public class LinkedListNodeTest
     {
         public NodeSolution sut;
 
         [Theory]
-        [InlineData(new int[4] { 2, 3, 4, 1})]
+        [InlineData(new int[4] { 2, 3, 4, 1 })]
         public void TestMaxdiff(int[] elements)
         {
             var T = elements.Length;
             NodeSolution sut = new NodeSolution();
 
             LinkedListNode head = null;
-            foreach (var data  in elements)
+            foreach (var data in elements)
             {
                 head = NodeSolution.insert(head, data);
             }

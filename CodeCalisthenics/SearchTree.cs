@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CodeCalisthenics.Operations
+namespace CodeCalisthenics
 {
     public class Node
     {
@@ -18,7 +16,6 @@ namespace CodeCalisthenics.Operations
 
     public class SearchTree
     {
-
         public static int getHeight(Node root)
         {
             int heightLeft = 0;
@@ -33,22 +30,21 @@ namespace CodeCalisthenics.Operations
                 if (root.right != null)
                     heightRight += getHeight(root.right) + 1;
             }
-            return (heightRight < heightLeft 
-                ? heightLeft : heightRight);
+            return heightRight < heightLeft
+                ? heightLeft : heightRight;
         }
 
         public void Execute()
         {
             Node root = null;
-            int T = Int32.Parse(Console.ReadLine());
+            int T = int.Parse(Console.ReadLine());
             while (T-- > 0)
             {
-                int data = Int32.Parse(Console.ReadLine());
+                int data = int.Parse(Console.ReadLine());
                 root = insert(root, data);
             }
             int height = getHeight(root);
             Console.WriteLine(height);
-
         }
 
         public static Node insert(Node root, int data)
@@ -71,7 +67,5 @@ namespace CodeCalisthenics.Operations
                 return root;
             }
         }
-
     }
-
 }

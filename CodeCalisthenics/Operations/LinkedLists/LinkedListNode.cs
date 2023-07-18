@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeCalisthenics.Operations
+namespace CodeCalisthenics.Operations.LinkedLists
 {
     public class LinkedListNode
     {
@@ -15,14 +15,13 @@ namespace CodeCalisthenics.Operations
 
     public class NodeSolution
     {
-
         public static void Execute()
         {
             LinkedListNode head = null;
-            int T = Int32.Parse(Console.ReadLine());
+            int T = int.Parse(Console.ReadLine());
             while (T-- > 0)
             {
-                int data = Int32.Parse(Console.ReadLine());
+                int data = int.Parse(Console.ReadLine());
                 head = insert(head, data);
             }
             display(head);

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CodeCalisthenics.Operations;
+﻿using CodeCalisthenics.Operations;
 using Xunit;
 
 namespace CodeCalisthenics.Test

@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
 
 namespace CodeCalisthenics.Operations
 {
     public class BreadthFirstSearch
     {
-        public static Queue<Node> nodeQ = new Queue<Node>();
+        public static Queue<Node> nodeQ = new();
 
         public void levelOrder(Node root)
         {
@@ -60,8 +58,5 @@ namespace CodeCalisthenics.Operations
             }
             levelOrder(root);
         }
-
     }
-
-   
 }
